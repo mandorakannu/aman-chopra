@@ -22,10 +22,12 @@
     --telegram: #2CA5E0; 
 }
 ::selection{
-color: var(--black);
+color: var(--white);
 background-color: var(--secondary);
 }
-
+img{
+    pointer-events: none;
+}
 .work-sans {
     font-family: 'Work Sans', sans-serif;
 }

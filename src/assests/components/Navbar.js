@@ -3,41 +3,59 @@ import React from "react";
 function Navbar() {
   return (
     <div className="flex flex-row justify-center items-center bg-transparent work-sans my-2 z-50">
-      <img
-        src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/dp_5OjVSjV04.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659765888130"
-        alt="logo"
-        srcSet=""
-        className="flex w-16 border-4 rounded-full border-x-[color:var(--primary)] border-y-transparent"
-      />
+      <a href="https://www.instagram.com/amanchopra__">
+        <img
+          src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/dp_5OjVSjV04.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659765888130"
+          alt="logo"
+          srcSet=""
+          className="flex w-16 border-4 rounded-full border-x-[color:var(--primary)] border-y-transparent"
+        />
+      </a>
       <section className="flex flex-row navbarList">
         <ul className="flex flex-row items-center">
           <li>
-            <span>About</span>
+            <a href="/About">
+              <span>About</span>
+            </a>
           </li>
           <li>
-            <span>Blog</span>
+            <a href="/Blog">
+              <span>Blog</span>
+            </a>
           </li>
           <li>
-            <span>Consultancy</span>
+            <a href="/">
+              <span>Consultancy</span>
+            </a>
           </li>
           <li>
-            <span>Home</span>
+            <a href="/">
+              <span>Home</span>
+            </a>
           </li>
           <li>
-            <span>Contact</span>
+            <a href="/Contact">
+              <span>Contact</span>
+            </a>
           </li>
           <li>
-            <span>Gita Remedies</span>
+            <a href="/GitaRemedies">
+              <span>Gita Remedies</span>
+            </a>
           </li>
           <li>
-            <span>Shop</span>
+            <a href="/Shop">
+              <span>Shop</span>
+            </a>
           </li>
           <li>
-            <span>Vedic Scriptures</span>
+            <a href="/VedicScriptures">
+              <span>Vedic Scriptures</span>
+            </a>
           </li>
         </ul>
         <button className="px-4 py-2 bg-[color:var(--primary)] text-white rounded-full ">
-          Refresh
+          <a href="/">Refresh</a>
         </button>
       </section>
     </div>
