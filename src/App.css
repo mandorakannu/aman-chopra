@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
 @import './assests/style/sm-screen.css';
 @import './assests/style/md-screen.css';
 @import './assests/style/pc-screen.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #F9C349;
+    --secondary: #F9C34A;
+    --tertiary: #7A615C;
+    --white: #FFFFFF;
+    --black: #1E1810;
+    --blue: #0056FF;
+    --lightBlue: #40ADE2;
+    --telegram: #2CA5E0; 
+}
+::selection{
+color: var(--black);
+background-color: var(--secondary);
+}
+
+.work-sans {
+    font-family: 'Work Sans', sans-serif;
+}
+/* .elementor-background-overlay {
+    background-color: var(--secondary);
+    opacity: 0.65;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+} */ 

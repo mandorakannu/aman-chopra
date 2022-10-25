@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1920px) {
+    .navbarList li {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 4px 6px;
+    }
+
+    .navbarList span {
+        cursor: pointer;
+    }
+
+}
