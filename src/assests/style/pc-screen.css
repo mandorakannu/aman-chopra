@@ -7,6 +7,10 @@
 
     .navbarList span {
         cursor: pointer;
+        color: var(--white);
     }
 
+    .navbarList button {
+        color: var(--black);
+    }
 }

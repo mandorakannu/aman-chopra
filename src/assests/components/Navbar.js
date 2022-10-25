@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="flex flex-row justify-center items-center bg-transparent work-sans my-2 z-50">
+    <div className="flex flex-row justify-center items-center bg-transparent work-sans z-50 mx-auto my-10">
       <a href="https://www.instagram.com/amanchopra__">
         <img
           src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/dp_5OjVSjV04.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659765888130"

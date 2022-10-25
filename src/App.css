@@ -14,15 +14,16 @@
 :root {
     --primary: #F9C349;
     --secondary: #F9C34A;
+    --midYellow: #FEB306; 
     --tertiary: #7A615C;
-    --white: #FFFFFF;
+    --white: #FFFFFF;   
     --black: #1E1810;
     --blue: #0056FF;
     --lightBlue: #40ADE2;
     --telegram: #2CA5E0; 
 }
 ::selection{
-color: var(--white);
+color: var(--black);
 background-color: var(--secondary);
 }
 img{
@@ -31,8 +32,6 @@ img{
 .work-sans {
     font-family: 'Work Sans', sans-serif;
 }
-/* .elementor-background-overlay {
-    background-color: var(--secondary);
-    opacity: 0.65;
-    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-} */ 
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
