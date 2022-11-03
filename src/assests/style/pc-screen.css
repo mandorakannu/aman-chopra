@@ -1,16 +1,22 @@
-@media only screen and (max-width: 1920px) {
-    .navbarList li {
+@media only screen and (min-width: 769px) and (max-width: 1920px) {
+   .pc-hide{
+    display: none;
+   }
+    .liList li {
         margin-left: 2rem;
         margin-right: 2rem;
         padding: 4px 6px;
     }
-
-    .navbarList span {
+    .liList span:active{
+        color: var(--primary);
+    }
+    .liList span {
         cursor: pointer;
         color: var(--white);
     }
 
-    .navbarList button {
+    .liList button {
         color: var(--black);
     }
+    
 }

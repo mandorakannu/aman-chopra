@@ -9,29 +9,53 @@
     padding: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
+    scrollbar-width: none;
+    /*Hide Scroll Bar From Firfox*/
+}
+
+/* Hide Scroll Bar From Chorme */
+::-webkit-scrollbar {
+    display: none;
 }
 
 :root {
     --primary: #F9C349;
     --secondary: #F9C34A;
-    --midYellow: #FEB306; 
+    --midYellow: #FEB306;
     --tertiary: #7A615C;
-    --white: #FFFFFF;   
+    --white: #FFFFFF;
     --black: #1E1810;
     --blue: #0056FF;
     --lightBlue: #40ADE2;
-    --telegram: #2CA5E0; 
+    --telegram: #2CA5E0;
+    --brown: #888783; 
 }
-::selection{
-color: var(--black);
-background-color: var(--secondary);
+
+::selection {
+    color: var(--black);
+    background-color: var(--secondary);
 }
-img{
-    pointer-events: none;
-}
+
 .work-sans {
     font-family: 'Work Sans', sans-serif;
 }
+
 .open-sans {
     font-family: 'Open Sans', sans-serif;
+}
+
+.liList li:active {
+    color: var(--secondary);
+}
+
+.hrClass {
+    width: 5rem;
+    margin: 1.25rem auto;
+    border-color: var(--primary); 
+}
+
+.shadeEffect {
+    filter: brightness(103%) contrast(96%) saturate(81%) blur(0px) hue-rotate(336deg);
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 0.07);
 }

@@ -1,0 +1,70 @@
+@media (max-width:600px) {
+    body{
+        z-index: 30;
+    }
+    #navbarIndex{
+        z-index: 50;
+    }
+    .sm-hide{
+        display: none;
+    }
+    .sm-bgImg{
+        position: relative;
+        height: auto;
+        width: auto;
+    }
+    .sm-main{
+        display:flex;
+        flex-direction: column;
+    }
+    .sm-main :is(button,h1,hr){
+        display: flex;
+        position: relative;
+        top: -10rem;
+        width: 100vw;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .sm-main button{
+        display: flex;
+        width: fit-content;
+        transform: scale(0.7);
+        color: var(--black);
+    }
+    .sm-main :is(.sm-main-h1-1, .sm-main-h1-2){
+        font-size: x-large;
+        font-weight: 900;
+        font-family: 'Work Sans', sans-serif;
+
+    }
+    .sm-main .sm-main-h1-1{
+        top: -13rem;
+    }
+    .sm-main .sm-main-h1-2{
+        top: -11rem;
+    }
+    .sm-main hr{
+        display: flex;
+        width: 5rem;
+        top: -12rem;
+    }
+    .sm-liList{
+        margin-top: 3rem;
+        margin-right: 3rem;
+        padding-top: 1.25rem;
+        padding-bottom: 0.3rem;
+    }
+    .sm-liList li{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .sm-liList li:active{
+        color: var(--primary);
+    }
+    #menu{
+        display: none;
+    }
+}

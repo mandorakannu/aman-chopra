@@ -1,12 +1,12 @@
 import './App.css';
 import Main from './assests/components/Main';
-import Navber from './assests/components/Navbar';
+import Navbar from './assests/components/Navbar';
 import Footer from './assests/components/Footer';
 
 function App() {
   return (
    <>
-   <Navber/>
+   <Navbar/>
    <Main/>
    <Footer/>
    </>
