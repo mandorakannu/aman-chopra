@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import './assests/style/sm-screen.css';
 @import './assests/style/md-screen.css';
 @import './assests/style/pc-screen.css';
@@ -58,4 +58,10 @@
     filter: brightness(103%) contrast(96%) saturate(81%) blur(0px) hue-rotate(336deg);
     border-radius: 4px 4px 4px 4px;
     box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 0.07);
+}
+.button{
+    transition: all 0.5 ease-in-out;
+}
+.button:hover{
+    background-color: var(--midYellow);
 }

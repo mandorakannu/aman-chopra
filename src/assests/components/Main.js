@@ -47,7 +47,7 @@ function Main() {
             <h1 className="work-sans mx-auto my-5 font-extrabold text-xl">Bhagavad Gita on Instagram</h1>
             <span className="w-96 mx-auto text-[color:var(--brown)] open-sans">From the last two years I have been creating Bhagavad Gita Shlok by Shlok videos on Instagram.</span>
            <a href="https://instagram.com/amanchopra__" className="mx-auto my-5">
-            <Btn/>
+            <Btn classAdd="btn"/>
            </a>
           </div>
           <div className="flex flex-col justify-center">
@@ -59,7 +59,7 @@ function Main() {
              <h1 className="work-sans mx-auto my-5 font-extrabold text-xl">Bhagavad Gita on YouTube</h1>
             <span className="w-96 mx-auto text-[color:var(--brown)] open-sans">You will get a thorough explanation of the Bhagavad Gita Chapter by Chapter in our YouTube series.</span>
             <a href="https://www.youtube.com/watch?v=nQZM1WSAuvw&list=PLL6ueE9xzJAzZExEdt0XlVHRHd-UVzxne" className="mx-auto my-5">
-              <Btn/>
+              <Btn classAdd="btn"/>
             </a>
           </div>
         </div>
@@ -70,9 +70,9 @@ function Main() {
         </div>
       </div>
       <div className="flex flex-col bg-black text-white uppercase relative">
-        <h1 className="bg-transparent absolute text-3xl work-sans text-white top-1/2 right-1/2">Get Access to Vedic granth PdfS</h1>
+        <h1 className="bg-transparent absolute text-3xl open-sans font-extrabold  text-white top-1/2 right-1/2">Get Access to Vedic granth PdfS</h1>
        <a href="/VedicScriptures">
-        <Btn classAdd="absolute top-1/2 right-[35%] text-black font-extrabold work-sans"/>
+        <Btn classAdd="btn absolute top-1/2 right-[35%] text-black font-black open-sans"/>
         </a> 
       <img
           src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/assests/vedas_LUXlYPEoH_2I75Q5xGPo.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667494617427"
