@@ -61,7 +61,7 @@
     background-color: var(--midYellow);
 }
 
-:is(.divAccess, .divAccessSpan, .divAccessBtn){
+:is(.divAccess, .divAccessSpan, .divAccessBtn) {
     position: absolute;
     transform: translate(-50%);
 }
@@ -70,6 +70,7 @@
     top: 50%;
     left: 50%;
 }
+
 .divAccessSpan {
     top: 60%;
     left: 50%;
@@ -78,4 +79,20 @@
 .divAccessBtn {
     bottom: 20%;
     left: 50%;
+}
+
+.targetHref a {
+    display: flex;
+    justify-content: center;
+    margin: 0.4rem auto;
+}
+
+.targetHref span {
+    cursor: default;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
 }
