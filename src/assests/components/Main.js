@@ -38,7 +38,7 @@ function Main() {
         </div>
         {/* Panel Images */}
         <div className="flex flex-row justify-evenly">
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-around">
             <img
               src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/assests/panel_JcT6VZhFl.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1661232244582"
               alt=""
