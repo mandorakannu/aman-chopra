@@ -45,7 +45,7 @@ function Navbar() {
           </li>
             <hr className="w-screen"/>
           <li>
-            <a href="/">
+            <a href="https://pages.razorpay.com/pl_K6Ljxyd8G6yakX/view">
               <span>Consultancy</span>
             </a>
           </li>
@@ -79,7 +79,6 @@ function Navbar() {
               <span>Vedic Scriptures</span>
             </a>
           </li>
-          {/* <hr className="w-screen"/> */}
         </ul>
       </section>
     </>

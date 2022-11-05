@@ -9,7 +9,7 @@ function NavList() {
             src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/dp_5OjVSjV04.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659765888130"
             alt="logo"
             srcSet=""
-            className="flex flex-row w-16 border-4 rounded-full border-x-[color:var(--primary)] border-y-transparent"
+            className="flex flex-row w-16 border-4 rounded-full border-x-[color:var(--primary)] border-y-transparent hoverEffect hover:border-y-[color:var(--primary)]"
           />
         </a>
         <section className="flex liList">
@@ -25,7 +25,7 @@ function NavList() {
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="https://pages.razorpay.com/pl_K6Ljxyd8G6yakX/view" target={"_blank"} rel="noreferrer">
                 <span>Consultancy</span>
               </a>
             </li>
@@ -54,7 +54,7 @@ function NavList() {
                 <span>Vedic Scriptures</span>
               </a>
             </li>
-            <button className="px-4 py-2 bg-[color:var(--primary)] text-white rounded-full ">
+            <button className="px-4 py-2 bg-[color:var(--primary)] text-white rounded-full hoverEffect hover:bg-[color:var(--midYellow)]">
               <a href="/">Refresh</a>
             </button>
           </ul>

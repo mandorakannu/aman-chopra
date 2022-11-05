@@ -21,13 +21,13 @@ function About() {
       </div>
       <div className="flex flex-row bg-white py-44 justify-around">
         <div className="">
-          <h1 className="font-semibold text-3xl my-5 mx-10">Mission</h1>
-          <hr className="mx-10 w-28 border-[color:var(--primary)] mb-10" />
-          <p className="text-[color:var(--brown)] w-[35rem] border my-16 text-lg work-sans leading-7">
+          <h1 className="font-semibold text-6xl my-5 mx-10">Mission</h1>
+          <hr className="mx-10 w-52 border-[color:var(--primary)] mb-10" />
+          <p className="text-[color:var(--brown)] w-[35rem]  my-16 text-lg work-sans leading-7">
             By incorporating values from the Bhagavad Gita into the contemporary
             educational system, Aman Chopra, hope to make a difference.
           </p>
-          <p className="text-[color:var(--brown)] w-[35rem] border my-16 text-lg work-sans leading-7">
+          <p className="text-[color:var(--brown)] w-[35rem]  my-16 text-lg work-sans leading-7">
             He only wants to use his meagre efforts to serve mankind. His life's
             goal is to change education by integrating spiritual, interpersonal,
             financial, and extracurricular learning into the mainstream.

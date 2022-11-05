@@ -7,7 +7,7 @@
         margin-right: 2rem;
         padding: 4px 6px;
     }
-    .liList span:active{
+    .liList span:hover{
         color: var(--primary);
     }
     .liList span {
@@ -18,5 +18,10 @@
     .liList button {
         color: var(--black);
     }
-    
+    li a span{
+        transition: all 0.3s ease;
+    }
+    .hoverEffect{
+        transition: all 0.3s ease;
+    }
 }

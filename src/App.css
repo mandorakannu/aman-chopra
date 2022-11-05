@@ -37,8 +37,8 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.liList li:active {
-    color: var(--secondary);
+.liList li:hover {
+color: var(--secondary);
 }
 
 .hrClass {
@@ -85,10 +85,17 @@
     display: flex;
     justify-content: center;
     margin: 0.4rem auto;
+    width: 10rem;
 }
 
+.targetHref h1 {
+    cursor: pointer;
+}
 .targetHref span {
     cursor: default;
+}
+.targetHref h1:hover{
+    color: var(--secondary);
 }
 
 #copyright {

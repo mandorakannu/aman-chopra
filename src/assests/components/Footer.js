@@ -4,6 +4,7 @@ import showDate from "../js/copyRightDate";
 function Footer() {
   return (
     <>
+      <hr className="bg-[color:var(--primary)] h-2"/>
       <div className="flex flex-col items-center py-10 bg-[color:var(--black)] text-white work-sans">
         <ul className="targetHref">
           <a href="/">
