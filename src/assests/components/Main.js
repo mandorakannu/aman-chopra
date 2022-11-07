@@ -37,14 +37,14 @@ function Main() {
           <hr className="hrClass h-0.5 bg-[color:var(--primary)]" />
         </div>
         {/* Panel Images */}
-        <div className="flex flex-row justify-evenly">
+        <div className="flex flex-row justify-around">
           <div className="flex flex-col justify-around">
             <img
               src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/assests/panel_JcT6VZhFl.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1661232244582"
               alt=""
               className="flex shadeEffect w-96 h-80"
             />
-            <h1 className="work-sans mx-auto my-5 font-extrabold text-xl">
+            <h1 className="work-sans mx-auto my-5 font-bold text-xl">
               Bhagavad Gita on Instagram
             </h1>
             <span className="w-96 mx-auto text-[color:var(--brown)] open-sans">
@@ -62,9 +62,9 @@ function Main() {
             <img
               src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/assests/panel1_J8EX-ZuRQ.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1661260557260"
               alt=""
-              className="flex shadeEffect w-96 h-80"
+              className="flex shadeEffect w-96 h-80 my-1"
             />
-            <h1 className="work-sans mx-auto my-5 font-extrabold text-xl">
+            <h1 className="work-sans mx-auto my-5 font-bold text-xl">
               Bhagavad Gita on YouTube
             </h1>
             <span className="w-96 mx-auto text-[color:var(--brown)] open-sans">
