@@ -115,7 +115,7 @@ function GetGita() {
             <img
               src={element.Image}
               alt={element.title}
-              className="w-72 shadeEffect"
+              className="w-72 h-52 shadeEffect"
               loading="lazy"
             />
             <div className="flex flex-col justify-center items-center">

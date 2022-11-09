@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./assests/components/About";
 import Contact from "./assests/components/Contact";
 import GitaRemedies from "./assests/components/GitaRemedies";
+import Shop from "./assests/components/Shop";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/GitaRemedies" element={<GitaRemedies/>} />
+        </Routes>
+        <Routes>
+          <Route path="/Shop" element={<Shop/>} />
         </Routes>
 
       </BrowserRouter>
