@@ -1,6 +1,6 @@
 import React from "react";
 
-function NavList() {
+function NavList(props) {
   return (
     <>
       <div className="sm-hide flex mx-auto z-50">

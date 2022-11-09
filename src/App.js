@@ -5,6 +5,7 @@ import Footer from "./assests/components/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./assests/components/About";
 import Contact from "./assests/components/Contact";
+import GitaRemedies from "./assests/components/GitaRemedies";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/Contact" element={<Contact/>} />
+        </Routes>
+        <Routes>
+          <Route path="/GitaRemedies" element={<GitaRemedies/>} />
         </Routes>
 
       </BrowserRouter>
