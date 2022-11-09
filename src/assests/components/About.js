@@ -11,6 +11,7 @@ function About() {
           src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/assests/download_1_eaHq7f1AH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661662352024"
           alt=""
           className="fixed top-0 w-screen h-[90vh] -z-50"
+          loading="lazy"
         />
         <h1 className="flex justify-center items-center mt-20 text-white text-6xl work-sans font-bold">
           Selflessness
@@ -34,10 +35,14 @@ function About() {
           </p>
         </div>
         <div className="">
-          <img src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/assests/20211031_120856287_iOS-scaled.jpg_NjuHij-LO.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1661662911224&tr=w-1080%2Ch-1080%2Cfo-auto" alt="" className="w-96 shadeEffect"/>
+          <img
+            src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/assests/20211031_120856287_iOS-scaled.jpg_NjuHij-LO.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1661662911224&tr=w-1080%2Ch-1080%2Cfo-auto"
+            alt=""
+            className="w-96 shadeEffect"
+          />
         </div>
-      </div> 
-       <Footer />
+      </div>
+      <Footer />
     </>
   );
 }

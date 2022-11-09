@@ -12,6 +12,7 @@ function Contact() {
           src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/assests/download_Xr6-Ud94N_MZrBcImM5.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661785449444"
           alt=""
           className="fixed top-0 -z-50 h-5/6 w-screen"
+          loading="lazy"
         />
       </div>
       <div className="flex flex-row bg-[color:var(--likeWhite)] justify-around items-center">

@@ -43,6 +43,7 @@ function Main() {
               src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/assests/panel_JcT6VZhFl.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1661232244582"
               alt=""
               className="flex shadeEffect w-96 h-80"
+              loading="lazy"
             />
             <h1 className="work-sans mx-auto my-5 font-bold text-xl">
               Bhagavad Gita on Instagram
@@ -63,6 +64,7 @@ function Main() {
               src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/assests/panel1_J8EX-ZuRQ.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1661260557260"
               alt=""
               className="flex shadeEffect w-96 h-80 my-1"
+              loading="lazy"
             />
             <h1 className="work-sans mx-auto my-5 font-bold text-xl">
               Bhagavad Gita on YouTube
@@ -125,6 +127,7 @@ function Main() {
           src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/assests/vedas_LUXlYPEoH_2I75Q5xGPo.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667494617427"
           alt=""
           className="flex w-screen h-[30rem]"
+          loading="lazy"
         />
       </div>
       {/* About Me */}
@@ -145,11 +148,13 @@ function Main() {
               src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/Instagram_Images/aman1_iUEDufkqH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667540752799&tr=w-1080%2Ch-1080%2Cfo-auto"
               alt=""
               className=" w-96 h-80 mx-5 rounded-md"
+              loading="lazy"
             />
             <img
               src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/Instagram_Images/aman3_IXIk_eGAa.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1667540751828&tr=w-1080%2Ch-1080%2Cfo-auto"
               alt=""
               className="w-96 h-80 mx-5 rounded-md"
+              loading="lazy"
             />
           </div>
           <div className="flex flex-row my-5">
@@ -157,11 +162,13 @@ function Main() {
               src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/Instagram_Images/aman2_BTl4hsdcC.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667540751956&tr=w-1080%2Ch-1080%2Cfo-auto"
               alt=""
               className="w-96 mx-5 my-5 rounded-md"
+              loading="lazy"
             />
             <img
               src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/Instagram_Images/284003796_334843345432462_3712811717601148836_n_z2bBY41N2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667542916382&tr=w-1080%2Ch-1080%2Cfo-auto"
               alt=""
               className="w-96 mx-5 my-5 rounded-md"
+              loading="lazy"
             />
           </div>
         </div>
