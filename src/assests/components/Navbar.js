@@ -5,7 +5,7 @@ import displayHamburger from "../js/dropDownMenu";
 function Navbar(props) {
   return (
     <>
-      <div className={`flex flex-row  bg-transparent work-sans z-50 mx-auto my-10 ${props.bg} `}>
+      <div className={`flex flex-row  work-sans z-50 mx-auto my-10 ${props.bg} `}>
         <NavList/>
       </div>
 
