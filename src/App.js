@@ -7,6 +7,7 @@ import About from "./assests/components/About";
 import Contact from "./assests/components/Contact";
 import GitaRemedies from "./assests/components/GitaRemedies";
 import Shop from "./assests/components/Shop";
+import VedicScriptures from "./assests/components/VedicScriptures";
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/Shop" element={<Shop/>} />
+        </Routes>
+        <Routes>
+          <Route path="/VedicScriptures" element={<VedicScriptures/>} />
         </Routes>
 
       </BrowserRouter>
