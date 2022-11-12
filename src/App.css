@@ -92,6 +92,7 @@ color: var(--secondary);
 
 .targetHref h1 {
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 .targetHref span {
     cursor: default;
