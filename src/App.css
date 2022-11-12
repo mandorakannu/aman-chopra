@@ -10,9 +10,7 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
-::-webkit-scrollbar{
-    display: none;
-}
+
 
 :root {
     --primary: #F9C349;

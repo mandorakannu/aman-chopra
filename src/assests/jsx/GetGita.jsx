@@ -110,8 +110,8 @@ function GetGita() {
   return getData.data.map((element) => {
     return (
       <>
-        <div className="inline-flex my-10" key={element.title}>
-          <div className="flex flex-col items-center justify-center w-96">
+        <div className="inline-flex my-10 mx-7" key={element.title}>
+          <div className="flex flex-col items-center justify-center w-80">
             <img
               src={element.Image}
               alt={element.title}

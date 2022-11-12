@@ -4,7 +4,7 @@ function NavList(props) {
   return (
     <>
       <div className="sm-hide flex mx-auto z-50">
-        <a href="https://www.instagram.com/amanchopra__">
+        <a href="/">
           <img
             src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/dp_5OjVSjV04.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659765888130"
             alt="logo"

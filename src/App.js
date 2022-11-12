@@ -9,7 +9,6 @@ import GitaRemedies from "./assests/components/GitaRemedies";
 import Shop from "./assests/components/Shop";
 import VedicScriptures from "./assests/components/VedicScriptures";
 import NoPage from "./assests/components/NoPage";
-
 function App() {
   return (
     <>
