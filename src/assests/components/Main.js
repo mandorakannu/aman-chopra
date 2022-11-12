@@ -86,7 +86,6 @@ function Main() {
             src="https://www.youtube.com/embed/nQZM1WSAuvw"
             title="YouTube video player"
             frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             className="mx-auto w-3/4 h-4/5 rounded-md"
           ></iframe>
