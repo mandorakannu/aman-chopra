@@ -1,11 +1,8 @@
 import React from "react";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
 
 function About() {
   return (
     <>
-      <Navbar />
       <div className="h-max my-32">
         <img
           src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/assests/download_1_eaHq7f1AH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661662352024"
@@ -42,7 +39,6 @@ function About() {
           />
         </div>
       </div>
-      <Footer />
     </>
   );
 }

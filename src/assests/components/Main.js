@@ -1,6 +1,6 @@
 import React from "react";
 import Btn from "./Btn";
-
+import { Link } from "react-router-dom";
 function Main() {
   return (
     <>
@@ -19,7 +19,7 @@ function Main() {
             BHAGAVAD GITA
           </h1>
           <button className="hoverEffect px-10 py-3 bg-[color:var(--primary)] text-black font-bold rounded-full mx-auto my-20 hover:bg-[color:var(--midYellow)]">
-            <a href="/GitaRemedies">GET YOUR PROBLEM RESOLVED</a>
+            <Link to="/GitaRemedies">GET YOUR PROBLEM RESOLVED</Link>
           </button>
         </div>
       </div>
@@ -31,7 +31,9 @@ function Main() {
         <span className="flex justify-center text-xl text-[color:var(--brown)]">
           service of humanity and God."
         </span>
-        <span className="flex justify-center my-5 work-sans text-[color:var(--brown)]">-Aman Chopra</span>
+        <span className="flex justify-center my-5 work-sans text-[color:var(--brown)]">
+          -Aman Chopra
+        </span>
         <div className="flex flex-col justify-center mt-20 text-4xl font-bold work-sans uppercase">
           <h1 className="mx-auto">Ongoing Events</h1>
           <hr className="hrClass h-0.5 bg-[color:var(--primary)]" />
@@ -52,12 +54,12 @@ function Main() {
               From the last two years I have been creating Bhagavad Gita Shlok
               by Shlok videos on Instagram.
             </span>
-            <a
-              href="https://instagram.com/amanchopra__"
+            <Link
+              to="https://instagram.com/amanchopra__"
               className="mx-auto my-5"
             >
               <Btn classAdd="btn" />
-            </a>
+            </Link>
           </div>
           <div className="flex flex-col justify-center">
             <img
@@ -73,12 +75,12 @@ function Main() {
               You will get a thorough explanation of the Bhagavad Gita Chapter
               by Chapter in our YouTube series.
             </span>
-            <a
-              href="https://www.youtube.com/watch?v=nQZM1WSAuvw&list=PLL6ueE9xzJAzZExEdt0XlVHRHd-UVzxne"
+            <Link
+              to="https://www.youtube.com/watch?v=nQZM1WSAuvw&list=PLL6ueE9xzJAzZExEdt0XlVHRHd-UVzxne"
               className="mx-auto my-5"
             >
               <Btn classAdd="btn" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="iFrame flex flex-col justify-center my-20 h-screen z-40 ">

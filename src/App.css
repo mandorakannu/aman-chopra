@@ -106,15 +106,3 @@ color: var(--secondary);
     justify-content: center;
     margin: 2rem auto;
 }
-.fixes{
-    display: grid;
-    place-items: center;
-    isolation: isolate;
-}
-.fixes > *{
-    grid-column: 1/ -1;
-    grid-row: 1/ -1;
-}
-.media{
-    z-index: -1;
-}
