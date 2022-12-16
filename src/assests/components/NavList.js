@@ -25,13 +25,13 @@ function NavList(props) {
               </Link>
             </li>
             <li>
-              <Link
-                to="https://pages.razorpay.com/pl_K6Ljxyd8G6yakX/view"
+              <a
+                href="https://pages.razorpay.com/pl_K6Ljxyd8G6yakX/view"
                 target={"_blank"}
                 rel="noreferrer"
               >
                 <span>Consultancy</span>
-              </Link>
+              </a>
             </li>
             <li>
               <Link to="/">
