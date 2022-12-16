@@ -25,8 +25,8 @@ function VedicScriptures() {
           </span>
         </div>
         <div>
-          <Link
-            to="https://t.me/bhagavadgitaknowledge"
+          <a
+            href="https://t.me/bhagavadgitaknowledge"
             target={"_blank"}
             rel="noreferrer"
           >
@@ -35,7 +35,7 @@ function VedicScriptures() {
               alt=""
               className="w-40 bg-[color:var(--telegram)] hover:bg-[color:var(--lightBlue)] hoverEffect p-4 rounded-md"
             />
-          </Link>
+          </a>
         </div>
       </div>
     </>
