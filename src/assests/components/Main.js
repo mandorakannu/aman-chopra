@@ -108,27 +108,6 @@ function Main() {
           />
         </div>
       </div>
-      <div className="flex flex-col bg-black text-white uppercase relative">
-        <h1 className="flex justify-center bg-transparent text-3xl open-sans font-extrabold divAccess text-white">
-          Get Access to Vedic granth PdfS
-        </h1>
-        <span className="divAccessSpan font-bold">
-          Simply fill out the form below to gain free access to 900+ Vedic
-          Granth PDFs.
-        </span>
-        <a href="/VedicScriptures">
-          <Btn
-            classAdd="btn divAccessBtn text-black font-extrabold open-sans"
-            text="Get Access"
-          />
-        </a>
-        <img
-          src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/assests/vedas_LUXlYPEoH_2I75Q5xGPo.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667494617427"
-          alt=""
-          className="flex w-screen h-[30rem]"
-          loading="lazy"
-        />
-      </div>
       {/* About Me */}
 
       <div className="flex bg-white justify-evenly">

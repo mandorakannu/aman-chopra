@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 function GitaRemedies() {
   return (
     <>
-    <Navbar bg="bg-slate-300 sticky top-0 py-2"/>
+    <Navbar bg="bg-yellow-500 my-0 sticky top-0 py-2"/>
     <div className="flex flex-col justify-center text-3xl font-bold my-10">
       <h1 className="flex items-center justify-center">RESOLVE ALL OF YOUR LIFE PROBLEMS NOW</h1>
       <hr className=" flex hrClass h-0.5 bg-[color:var(--primary)]" /> 

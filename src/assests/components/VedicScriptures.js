@@ -5,8 +5,8 @@ import Navbar from "./Navbar";
 function VedicScriptures() {
   return (
     <>
-      <Navbar bg="bg-yellow-500" />
-      <div className="flex flex-col justify-center items-center work-sans">
+      <Navbar bg="bg-yellow-500 my-0" />
+      <div className="flex flex-col justify-center items-center work-sans my-20">
         <h1 className="font-semibold text-4xl uppercase">
           Read Vedic scriptures online for free
         </h1>
@@ -16,7 +16,6 @@ function VedicScriptures() {
           below there and read any scripture of your choice.
         </span>
       </div>
-      {/* GetVedicBook.jsx */}
       <div className="flex items-center justify-around work-sans">
         <div>
           <h1>
@@ -29,7 +28,9 @@ function VedicScriptures() {
           </span>
         </div>
         <div>
-            <img src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/assests/Telegram_2019_Logo.svg_msKmj_RdN.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1668004249207" alt="" className="w-40 bg-[color:var(--telegram)] hover:bg-[color:var(--lightBlue)] hoverEffect p-4 rounded-md" />
+           <a href="https://t.me/bhagavadgitaknowledge" target={"_blank"} rel="noreferrer">
+           <img src="https://ik.imagekit.io/egkxyv8la/Aman-Chopra_Website_/assests/Telegram_2019_Logo.svg_msKmj_RdN.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1668004249207" alt="" className="w-40 bg-[color:var(--telegram)] hover:bg-[color:var(--lightBlue)] hoverEffect p-4 rounded-md" />
+           </a>
         </div>
       </div>
       <Footer />
