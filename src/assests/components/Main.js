@@ -54,12 +54,14 @@ function Main() {
               From the last two years I have been creating Bhagavad Gita Shlok
               by Shlok videos on Instagram.
             </span>
-            <Link
-              to="https://instagram.com/amanchopra__"
+            <a
+              href="https://instagram.com/amanchopra__"
               className="mx-auto my-5"
+              target="_blank"
+              rel="noreferrer"
             >
               <Btn classAdd="btn" />
-            </Link>
+            </a>
           </div>
           <div className="flex flex-col justify-center">
             <img
@@ -75,12 +77,14 @@ function Main() {
               You will get a thorough explanation of the Bhagavad Gita Chapter
               by Chapter in our YouTube series.
             </span>
-            <Link
-              to="https://www.youtube.com/watch?v=nQZM1WSAuvw&list=PLL6ueE9xzJAzZExEdt0XlVHRHd-UVzxne"
+            <a
+              href="https://www.youtube.com/watch?v=nQZM1WSAuvw&list=PLL6ueE9xzJAzZExEdt0XlVHRHd-UVzxne"
               className="mx-auto my-5"
+              target="_blank"
+              rel="noreferrer"
             >
               <Btn classAdd="btn" />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="iFrame flex flex-col justify-center my-20 h-screen z-40 ">
